@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "MortModern-02LargeRegularItalic";
+  src: url(MortModern-02LargeRegularItalic.otf);
+}
+
+@font-face {
+  font-family: "MortModern-07LightItalic";
+  src :url(MortModern-07LightItalic.otf);
+}
+
 html {
   background: white;
 }
@@ -18,33 +28,24 @@ h1 {
   text-transform: uppercase;
 }
 
-@font-face {
-  font-family: 'Mort Modern 02 Large Regular Italic', serif;
-  src: url(public/fonts/mortmodern_02largeregularitalic.otf) format('otf');
-}
-
-@font-face {
-  font-family: 'Mort Modern 07 Light Italic', serif;
-  src: url(public/fonts/mortmodern_07lightitalic.otf) format('otf');
-}
-
 h3 {
-  font-family: 'Mort Modern 02 Large Regular Italic', serif;
-  font-weight: 100;
-  font-style: italic;
-  font-size: 3.5em;
+  font-size: 3.75em;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "MortModern-07LightItalic", sans-serif;
+  font-size: 1.5em;
   text-transform: uppercase;
 }
 
 a {
-  text-decoration: black;
+  font-family: "MortModern-02LargeRegularItalic", sans-serif;
+  font-weight: normal;
+  text-decoration: none;
   color: black;
 }
 
-p {
-  font-family: 'Mort Modern 07 Light Italic', serif;
-  font-size: 2em;
-  font-style: italic;
-  font-weight: 100;
-  text-transform: uppercase;
+a:hover {
+  color: blue;
 }
