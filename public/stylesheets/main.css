@@ -1,66 +1,9 @@
-@font-face {
-  font-family: "MortModern-02LargeRegularItalic";
-  src: url(MortModern-02LargeRegularItalic.otf);
-}
-
-@font-face {
-  font-family: "MortModern-07LightItalic";
-  src :url(MortModern-07LightItalic.otf);
-}
-
 html {
-  background: white;
+  font-size: 2em;
+  font-family: sans-serif;
 }
 
 body {
-}
-
-#container {
-  display: flex;
-
-  flex-direction: column;
-
-  font-family: sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-
-
   margin: auto;
-  max-width: 500px;
-  align-items: center;
-  justify-content: center;
-}
-
-.project {
-
-}
-
-h1 {
-  font-weight: 600;
-  font-size: 1.5em;
-  text-transform: uppercase;
-}
-
-h3 {
-  text-align: center;
-  font-size: 3.75em;
-  text-transform: uppercase;
-  margin-bottom: 0px;
-}
-
-p {
-  margin-top: 0px;
-  font-family: "MortModern-07LightItalic", sans-serif;
-  font-size: 1.5em;
-}
-
-a {
-  font-family: "MortModern-02LargeRegularItalic", sans-serif;
-  font-weight: normal;
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: blue;
+  max-width: 90%;
 }
