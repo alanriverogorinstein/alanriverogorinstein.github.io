@@ -1,9 +1,37 @@
 
 @font-face {
-  font-family: "UCity Regular";
-  src: local("/public/fonts/UCityProTrial-Regular.woff2") format("woff2");
+  font-family: 'UCity Regular';
+  src: url('../fonts/UCityProTrial-Regular.otf') format("otf");
+  src: url('../fonts/UCityProTrial-Regular.woff2') format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-  font-family: "UCity Regular", serif;
+  font-family: 'UCity Regular', serif;
+  color: black;
+  max-width: 75%;
+  margin: auto;
+  margin-top: 3%;
+  font-size: 1.5em;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 0.75em;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+#philosophy {
+  margin-top: 5%;
+}
+
+#philosophy_header {
+    margin-bottom: 0px;
 }
