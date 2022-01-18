@@ -1,9 +1,9 @@
 
 @font-face {
-  font-family: 'UCityRegular';
-  src: url('./ucityprotrial-regular.woff2') format("woff2");
+  font-family: "UCity Regular";
+  src: local("/public/fonts/UCityProTrial-Regular.woff2") format("woff2");
 }
 
 body {
-  font-family: 'UCityRegular', serif;
+  font-family: "UCity Regular", serif;
 }
