@@ -18,20 +18,36 @@ body {
 
 h1 {
   text-align: center;
-  text-transform: uppercase;
-  color: gray;
-  font-size: 0.75em;
+  /* text-transform: uppercase; */
+  color: black;
+  font-size: 0.8em;
 }
 
 a {
-  color: purple;
+  color: gray;
   text-decoration: none;
 }
 
 #philosophy {
   margin-top: 5%;
+  padding: 0%;
 }
 
 #philosophy_header {
     margin-bottom: 0px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 75%;
+  margin: auto;
+  color: #CCCCCC;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+}
+
+#footer_id {
+  text-align: center;
 }
