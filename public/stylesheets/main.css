@@ -1,1 +1,9 @@
-/* Insert css here */
+
+@font-face {
+  font-family: 'UCityRegular';
+  src: url('./ucityprotrial-regular.woff2') format("woff2");
+}
+
+body {
+  font-family: 'UCityRegular', serif;
+}
