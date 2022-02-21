@@ -107,9 +107,21 @@ a {
 }
 
 #philosophy_text {
-  font-size: 0.6em;
-  max-width: 45%;
+  font-size: 0.475em;
+  max-width: 50%;
   line-height: 60px;
+  text-align: left;
+}
+
+#carcajada {
+  width: 100%;
+  margin: auto;
+  background-color: gray;
+  min-height: 692px;
+  background-image: url("../images/carcajada.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #ancestry_header {
